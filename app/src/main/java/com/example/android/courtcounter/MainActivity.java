@@ -10,7 +10,6 @@ public class MainActivity extends AppCompatActivity {
     final int THREE_POINTS = 3;
     final int TWO_POINTS = 2;
     final int FREE_THROW = 1;
-
     int scoreTeamA = 0;
 
     @Override
