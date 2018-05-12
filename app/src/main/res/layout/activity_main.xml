@@ -3,8 +3,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Team A"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:padding="4dp"/>
 
+    <TextView
+        android:id="@+id/team_a_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:gravity="center_horizontal"
+        android:padding="4dp"/>
+
+    <Button
+        android:onClick="addThreePointsForTeamA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+3 Points"
+        android:layout_margin="8dp"/>
+
+    <Button
+        android:onClick="addTwoPointsForTeamA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+2 Points"
+        android:layout_margin="8dp"/>
+
+    <Button
+        android:onClick="addOnePointForTeamA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Free Throw"
+        android:layout_margin="8dp"/>
 
 </LinearLayout>
