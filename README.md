@@ -1,4 +1,4 @@
-Court Counter (Score Keeping)
+Score Counter (Basketball)
 ===================================
 
 Pre-requisites
