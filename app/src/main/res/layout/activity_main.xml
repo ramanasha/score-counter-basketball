@@ -30,7 +30,7 @@
                 android:gravity="center_horizontal"
                 android:padding="4dp"
                 android:text="Team A"
-                android:textColor="#0F0F43"
+                android:textColor="#003300"
                 android:textSize="18dp" />
 
             <TextView
@@ -95,7 +95,7 @@
                 android:gravity="center_horizontal"
                 android:padding="4dp"
                 android:text="Team B"
-                android:textColor="#0F0F43"
+                android:textColor="#003300"
                 android:textSize="18dp" />
 
             <TextView
